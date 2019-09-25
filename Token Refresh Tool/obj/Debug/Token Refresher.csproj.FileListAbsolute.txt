@@ -1,0 +1,18 @@
+D:\visual\projects\Token Refresher\bin\Debug\Token Refresher.exe.config
+D:\visual\projects\Token Refresher\bin\Debug\Token Refresher.exe
+D:\visual\projects\Token Refresher\bin\Debug\Token Refresher.pdb
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.csprojAssemblyReference.cache
+D:\visual\projects\Token Refresher\obj\Debug\MainWindow.g.cs
+D:\visual\projects\Token Refresher\obj\Debug\App.g.cs
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher_MarkupCompile.cache
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher_MarkupCompile.lref
+D:\visual\projects\Token Refresher\obj\Debug\MainWindow.baml
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.g.resources
+D:\visual\projects\Token Refresher\obj\Debug\Token_Refresher.Properties.Resources.resources
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.csproj.GenerateResource.cache
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.csproj.CoreCompileInputs.cache
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.exe
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.pdb
+D:\visual\projects\Token Refresher\bin\Debug\Newtonsoft.Json.dll
+D:\visual\projects\Token Refresher\bin\Debug\Newtonsoft.Json.xml
+D:\visual\projects\Token Refresher\obj\Debug\Token Refresher.csproj.CopyComplete

@@ -1,0 +1,29 @@
+D:\visual\projects\WpfApp1\bin\Release\JD Parser.exe.config
+D:\visual\projects\WpfApp1\bin\Release\JD Parser.exe
+D:\visual\projects\WpfApp1\bin\Release\JD Parser.pdb
+D:\visual\projects\WpfApp1\bin\Release\Json.Net.dll
+D:\visual\projects\WpfApp1\bin\Release\JTForks.MiscUtil.dll
+D:\visual\projects\WpfApp1\bin\Release\Newtonsoft.Json.dll
+D:\visual\projects\WpfApp1\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\visual\projects\WpfApp1\bin\Release\System.Reflection.TypeExtensions.dll
+D:\visual\projects\WpfApp1\bin\Release\System.Web.Mvc.Extensions.dll
+D:\visual\projects\WpfApp1\bin\Release\Newtonsoft.Json.xml
+D:\visual\projects\WpfApp1\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\visual\projects\WpfApp1\bin\Release\System.Web.Mvc.Extensions.xml
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.csprojAssemblyReference.cache
+D:\visual\projects\WpfApp1\obj\Release\MainWindow.g.cs
+D:\visual\projects\WpfApp1\obj\Release\App.g.cs
+D:\visual\projects\WpfApp1\obj\Release\JD Parser_MarkupCompile.cache
+D:\visual\projects\WpfApp1\obj\Release\JD Parser_MarkupCompile.lref
+D:\visual\projects\WpfApp1\obj\Release\MainWindow.baml
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.g.resources
+D:\visual\projects\WpfApp1\obj\Release\JDParser.Properties.Resources.resources
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.csproj.GenerateResource.cache
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.csproj.CoreCompileInputs.cache
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.csproj.CopyComplete
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.exe
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.pdb
+D:\visual\projects\WpfApp1\bin\Release\JD Parser.exe.manifest
+D:\visual\projects\WpfApp1\bin\Release\JD Parser.application
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.exe.manifest
+D:\visual\projects\WpfApp1\obj\Release\JD Parser.application

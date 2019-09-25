@@ -1,0 +1,25 @@
+﻿<Window x:Class="Token_Refresher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Token_Refresher"
+        mc:Ignorable="d"
+        Title="Token Refresh Tool" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFB7E3E5" Offset="0.096"/>
+                <GradientStop Color="#FF3694BD" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox Name="contactToken" HorizontalAlignment="Left" Height="41" Margin="47,61,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="458" TextChanged="contactChanged"/>
+        <TextBox Name="jobToken" HorizontalAlignment="Left" Height="41" Margin="47,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="458" TextChanged="jobChanged"/>
+        <TextBox Name="noteToken" HorizontalAlignment="Left" Height="41" Margin="47,261,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="458" TextChanged="noteChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="47,33,0,0" TextWrapping="Wrap" Text="Contact Token" VerticalAlignment="Top" Width="458"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="47,136,0,0" TextWrapping="Wrap" Text="Job Token" VerticalAlignment="Top" Width="458"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="47,236,0,0" TextWrapping="Wrap" Text="Note Token" VerticalAlignment="Top" Width="458"/>
+        <Button Name="Refresh" Content="Refresh" HorizontalAlignment="Left" Height="57" Margin="603,69,0,0" VerticalAlignment="Top" Width="137" Click="refresh"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+There are 3 inside tokens in JD Parser, all of them have 2 week life cycle. 
+Everytime user uses the JD Parser will refresh the life cycle of the token.
+If the token has expired, you need to use Token Refresher to refresh it.
+Here are the steps:
+
+1. 
+enter the following url by any web browser
+
+Note Token:
+https://id.jobadder.com/connect/authorize?response_type=code&client_id=vzphsdtmvq4u3o4vs5pswnpk2a&scope=offline_access read write&redirect_uri=https://api.jobadder.com/v2/jobs/{jobId}/notes
+
+Job Token:
+https://id.jobadder.com/connect/authorize?response_type=code&client_id=vzphsdtmvq4u3o4vs5pswnpk2a&scope=offline_access read write&redirect_uri=https://api.jobadder.com/v2/jobs
+
+Contact Token:
+https://id.jobadder.com/connect/authorize?response_type=code&client_id=vzphsdtmvq4u3o4vs5pswnpk2a&scope=offline_access read write&redirect_uri=https://api.jobadder.com/v2/contacts
+
+2. 
+fill in the user name and password(the user must have api admin authorization)
+then click login
+then click accept
+
+3.
+the url will be redirect to another url with the format:
+https://api.jobadder.com/v2/ABCDEF?code=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+for here, ABCDEF can be job, contact or etc.
+the XXXXXXXXXXXXXXXXXXXXXXXXXXXXX part after "code=" is the authorization code which we want
+
+For example:
+https://api.jobadder.com/v2/contacts?code=3af974b0bdebc8cee42766f6085e38e4
+in this case, 3af974b0bdebc8cee42766f6085e38e4 is the authorization code which we want
+
+fill in the code into token refresher, then click refresh
+
+4. 
+if the previous step all correct, the token refresh tool will show message "successfully refreshed" after rerfeshing the token
