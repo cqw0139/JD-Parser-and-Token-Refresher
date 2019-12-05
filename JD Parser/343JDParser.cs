@@ -470,7 +470,14 @@ namespace MS_343_JD_Parser
 
                     }
 
-                    if (string.Equals(contactName, ""))
+                    if (line != null)
+                    {
+                        line = reader.ReadLine();
+                    }
+
+                }
+
+                if (string.Equals(contactName, ""))
                     {
                     }
                     else
@@ -500,13 +507,6 @@ namespace MS_343_JD_Parser
                         contactItem contactItem = new contactItem(contactResponse.items.GetValue(0).ToString());
                         jobOrder.contactId = contactItem.contactId;
                     }
-
-                    if (line != null)
-                    {
-                        line = reader.ReadLine();
-                    }
-
-                }
 
                 string json = Newtonsoft.Json.JsonConvert.SerializeObject(jobOrder);
 
