@@ -18,9 +18,10 @@
         <TextBlock x:Name ="log"  HorizontalAlignment="Left" Height="108" Margin="31,448,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="876" IsEnabled="False"/>
         <TextBlock x:Name = "filePathList" HorizontalAlignment="Left" Height="360" Margin="31,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="871"/>
         <Button Content="send" HorizontalAlignment="Left" Height="35" Margin="923,67,0,0" VerticalAlignment="Top" Width="102" FontSize="18" Click="sendFiles" RenderTransformOrigin="0.473,1.846"/>
-        <StackPanel  HorizontalAlignment="Left" Height="430" Margin="907,126,0,0" VerticalAlignment="Top" Width="118">
+        <StackPanel  HorizontalAlignment="Left" Height="430" Margin="907,126,0,0" VerticalAlignment="Top" Width="131">
             <RadioButton Content="Contract Hub" Height="17" Margin="2,8,3.6,0" VerticalAlignment="Top" Checked="contractHubChecked"/>
             <RadioButton Content="343 site" Height="17" Margin="2,8,3.6,0" VerticalAlignment="Top" Checked="threeFourThreeChecked"/>
+            <RadioButton Content="new Contract Hub" Height="17" Margin="2,8,3.6,0" VerticalAlignment="Top" Checked="newContractHubChecked"/>
         </StackPanel>
 
     </Grid>
