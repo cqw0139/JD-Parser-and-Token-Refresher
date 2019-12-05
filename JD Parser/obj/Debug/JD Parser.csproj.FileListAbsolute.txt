@@ -27,32 +27,3 @@ D:\visual\projects\WpfApp1\bin\Debug\JD Parser.exe.manifest
 D:\visual\projects\WpfApp1\bin\Debug\JD Parser.application
 D:\visual\projects\WpfApp1\obj\Debug\JD Parser.exe.manifest
 D:\visual\projects\WpfApp1\obj\Debug\JD Parser.application
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.csprojAssemblyReference.cache
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\MainWindow.g.cs
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\App.g.cs
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser_MarkupCompile.cache
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser_MarkupCompile.lref
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.exe
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.pdb
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JD Parser.exe.config
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JD Parser.exe.manifest
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JD Parser.application
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JD Parser.exe
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JD Parser.pdb
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\Json.Net.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\JTForks.MiscUtil.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\Newtonsoft.Json.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\System.Reflection.TypeExtensions.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\System.Web.Mvc.Extensions.dll
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\Newtonsoft.Json.xml
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Debug\System.Web.Mvc.Extensions.xml
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\MainWindow.baml
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.g.resources
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JDParser.Properties.Resources.resources
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.csproj.GenerateResource.cache
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.csproj.CoreCompileInputs.cache
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.exe.manifest
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.application
-D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Debug\JD Parser.csproj.CopyComplete

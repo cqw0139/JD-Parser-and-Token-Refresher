@@ -19,7 +19,7 @@ using ApiMethod;
 using System.Collections;
 using MS_343_JD_Parser;
 
-namespace JDParser { 
+namespace JDParser
 
     public partial class MainWindow : Window
     {
@@ -51,16 +51,16 @@ namespace JDParser {
                         {
                             StringBuilder text = fileRead.fileRead.ReadFileToString(path[i]);
                             string[] jsonAndNote = MSJDParser.JDParser.parsing(text, contactToken);
-                            //int jobId = apiMethod.sendJob(jsonAndNote[0]);
-                            //apiMethod.addNote(jobId, jsonAndNote[1]);
-                            filePathList.Text += Environment.NewLine + jsonAndNote[0];
+                            int jobId = apiMethod.sendJob(jsonAndNote[0]);
+                            apiMethod.addNote(jobId, jsonAndNote[1]);
+                            //filePathList.Text += Environment.NewLine + jsonAndNote[0];
                         }
                         else if (threeFourThree == true)
                         {
                             StringBuilder text = fileRead.fileRead.ReadFileToString(path[i]);
                             string json = MS_343_JD_Parser.JDParser.parsing(text, contactToken);
-                            filePathList.Text += Environment.NewLine + json;
-                            //int jobId = apiMethod.sendJob(json);
+                            //filePathList.Text += Environment.NewLine + json;
+                            int jobId = apiMethod.sendJob(json);
                         }
                         else
                         {

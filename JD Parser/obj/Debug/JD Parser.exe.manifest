@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JD Parser.exe" size="46048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JD Parser.exe" size="46560">
       <assemblyIdentity name="JD Parser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9DIC9dUjmANZyv4CmBzk2c0cEIoUYmOcLXjf1McQdkA=</dsig:DigestValue>
+        <dsig:DigestValue>iSyPNYTwNzQgTBsnsTHtsVugzMZBlgj4YGhLtI+fjwM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
