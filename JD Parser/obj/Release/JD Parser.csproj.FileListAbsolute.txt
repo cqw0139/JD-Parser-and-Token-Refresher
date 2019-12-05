@@ -152,3 +152,129 @@ D:\vsProject\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.appli
 D:\vsProject\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.csproj.CopyComplete
 D:\vsProject\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.exe
 D:\vsProject\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.pdb
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JD Parser.exe.config
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JD Parser.exe.manifest
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JD Parser.application
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JD Parser.exe
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JD Parser.pdb
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\Microsoft.Win32.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\netstandard.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.AppContext.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Collections.Concurrent.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Collections.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Collections.NonGeneric.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Collections.Specialized.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ComponentModel.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ComponentModel.EventBasedAsync.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ComponentModel.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ComponentModel.TypeConverter.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Console.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Data.Common.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.Contracts.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.Debug.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.FileVersionInfo.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.Process.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.StackTrace.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.Tools.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.TraceSource.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.Tracing.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Drawing.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Dynamic.Runtime.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Globalization.Calendars.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Globalization.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Globalization.Extensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.Compression.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.Compression.ZipFile.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.FileSystem.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.FileSystem.DriveInfo.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.FileSystem.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.FileSystem.Watcher.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.IsolatedStorage.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.MemoryMappedFiles.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.Pipes.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.IO.UnmanagedMemoryStream.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Linq.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Linq.Expressions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Linq.Parallel.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Linq.Queryable.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Http.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.NameResolution.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.NetworkInformation.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Ping.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Requests.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Security.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.Sockets.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.WebHeaderCollection.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.WebSockets.Client.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Net.WebSockets.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ObjectModel.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Reflection.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Reflection.Extensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Reflection.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Resources.Reader.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Resources.ResourceManager.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Resources.Writer.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Extensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Handles.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.InteropServices.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Numerics.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Serialization.Formatters.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Serialization.Json.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Serialization.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Runtime.Serialization.Xml.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Claims.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Cryptography.Algorithms.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Cryptography.Csp.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Cryptography.Encoding.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Cryptography.Primitives.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Cryptography.X509Certificates.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.Principal.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Security.SecureString.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Text.Encoding.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Text.Encoding.Extensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Text.RegularExpressions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.Overlapped.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.Tasks.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.Tasks.Parallel.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.Thread.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.ThreadPool.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Threading.Timer.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.ValueTuple.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.ReaderWriter.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.XDocument.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.XmlDocument.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.XmlSerializer.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.XPath.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Xml.XPath.XDocument.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\Json.Net.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\JTForks.MiscUtil.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\Newtonsoft.Json.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Reflection.TypeExtensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Web.Mvc.Extensions.dll
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\Newtonsoft.Json.xml
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\bin\Release\System.Web.Mvc.Extensions.xml
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.csprojAssemblyReference.cache
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.exe.config
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\MainWindow.g.cs
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\App.g.cs
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser_MarkupCompile.cache
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser_MarkupCompile.lref
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\MainWindow.baml
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.g.resources
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JDParser.Properties.Resources.resources
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.csproj.GenerateResource.cache
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.csproj.CoreCompileInputs.cache
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.exe.manifest
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.application
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.csproj.CopyComplete
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.exe
+D:\git\JD-Parser-and-Token-Refresher\JD Parser\obj\Release\JD Parser.pdb

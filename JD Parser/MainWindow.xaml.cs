@@ -64,8 +64,8 @@ namespace JDParser {
                                 break;
                             case threeFourThree:
                                 string json = MS_343_JD_Parser.JDParser.parsing(text, contactToken);
-                                filePathList.Text += Environment.NewLine + json;
-                                //jobId = apiMethod.sendJob(json);
+                                //filePathList.Text += Environment.NewLine + json;
+                                jobId = apiMethod.sendJob(json);
                                 break;
                             case newContractHub:
                                 string[] jsonAndContact = MSJD_NewParser.JDParser.parsing(text, contactToken);
