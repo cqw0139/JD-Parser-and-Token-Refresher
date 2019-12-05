@@ -19,19 +19,23 @@ using ApiMethod;
 using System.Collections;
 using MS_343_JD_Parser;
 
-namespace JDParser
+namespace JDParser { 
 
     public partial class MainWindow : Window
     {
 
         private ArrayList path = new ArrayList();
         private int index = 0;
-        private bool contractHub = false;
-        private bool threeFourThree = false;
+        private const string contractHub = "contractHub";
+        private const string threeFourThree = "threeFourThree";
+        private const string newContractHub = "newContractHub";
+        private const string notSelected = "notSelected";
+        private string formatChosen = "";
 
         public MainWindow()
         {
             InitializeComponent();
+            formatChosen = notSelected;
         }
 
     // the method which will be called when user click the send button
@@ -46,26 +50,34 @@ namespace JDParser
                 for (int i = 0; i < index; i++)
                 {
                     try
-                    {        
-                        if(contractHub == true)
+                    {
+                        StringBuilder text = fileRead.fileRead.ReadFileToString(path[i]);
+                        int jobId;
+                        switch (formatChosen)
                         {
-                            StringBuilder text = fileRead.fileRead.ReadFileToString(path[i]);
-                            string[] jsonAndNote = MSJDParser.JDParser.parsing(text, contactToken);
-                            int jobId = apiMethod.sendJob(jsonAndNote[0]);
-                            apiMethod.addNote(jobId, jsonAndNote[1]);
-                            //filePathList.Text += Environment.NewLine + jsonAndNote[0];
+                            case contractHub:
+                                
+                                string[] jsonAndNote = MSJDParser.JDParser.parsing(text, contactToken);
+                                jobId = apiMethod.sendJob(jsonAndNote[0]);
+                                apiMethod.addNote(jobId, jsonAndNote[1]);
+                                //filePathList.Text += Environment.NewLine + jsonAndNote[0];
+                                break;
+                            case threeFourThree:
+                                string json = MS_343_JD_Parser.JDParser.parsing(text, contactToken);
+                                filePathList.Text += Environment.NewLine + json;
+                                //jobId = apiMethod.sendJob(json);
+                                break;
+                            case newContractHub:
+                                string[] jsonAndContact = MSJD_NewParser.JDParser.parsing(text, contactToken);
+                                jobId = apiMethod.sendJob(jsonAndContact[0]);
+                                apiMethod.addNote(jobId, jsonAndContact[1]);
+                                //filePathList.Text += Environment.NewLine + jsonAndContact[0];
+                                break;
+                            default:
+                                MessageBox.Show("Unexpected file format ratio button error 2");
+                                break;
                         }
-                        else if (threeFourThree == true)
-                        {
-                            StringBuilder text = fileRead.fileRead.ReadFileToString(path[i]);
-                            string json = MS_343_JD_Parser.JDParser.parsing(text, contactToken);
-                            //filePathList.Text += Environment.NewLine + json;
-                            int jobId = apiMethod.sendJob(json);
-                        }
-                        else
-                        {
-                            MessageBox.Show("Unexpected file format ratio button error 2");
-                        }
+
                     }
                     catch (Exception ex)
                     {
@@ -101,25 +113,31 @@ namespace JDParser
             dlg.Multiselect = true;
 
             // Set filter for file extension and default file extension 
-            if (contractHub == false && threeFourThree == false)
+            switch (formatChosen)
             {
-                MessageBox.Show("Please select the format of file first");
-            }
-            else if (contractHub == true)
-            {
-                dlg.DefaultExt = ".docx";
-                dlg.Filter = "DOCX Files (*.docx)|*.docx";
-                ratioButton = true;
-            }
-            else if (threeFourThree == true)
-            {
-                dlg.DefaultExt = ".txt";
-                dlg.Filter = "txt files (*.txt)|*.txt";
-                ratioButton = true;
-            }
-            else
-            {
-                MessageBox.Show("Unexpected file format ratio button error 1");
+                case notSelected:
+                    MessageBox.Show("Please select the format of file first");
+                    break;
+                case contractHub:
+                    dlg.DefaultExt = ".docx";
+                    dlg.Filter = "DOCX Files (*.docx)|*.docx";
+                    ratioButton = true;
+                    break;
+                case threeFourThree:
+                    dlg.DefaultExt = ".txt";
+                    dlg.Filter = "txt files (*.txt)|*.txt";
+                    ratioButton = true;
+                    break;
+                case newContractHub:
+                    dlg.DefaultExt = ".docx";
+                    dlg.Filter = "DOCX Files (*.docx)|*.docx";
+                    ratioButton = true;
+                    break;
+                default:
+                    MessageBox.Show("Unexpected file format ratio button error 1");
+                    break;
+
+
             }
 
             index = 0;
@@ -175,8 +193,7 @@ namespace JDParser
                 filePathList.Text = "";
                 filePathList.Text = "Previously selected file has removed." + Environment.NewLine;
             }
-            contractHub = true;
-            threeFourThree = false;
+            formatChosen = contractHub;
         }
 
     //when file format is changed to 343, this method will be called and the previous file with other format will be removed
@@ -191,8 +208,23 @@ namespace JDParser
                 filePathList.Text = "";
                 filePathList.Text = "Previously selected file has removed." + Environment.NewLine;
             }
-            contractHub = false;
-            threeFourThree = true;
+            formatChosen = threeFourThree;
         }
+
+        //when file format is changed to contract Hub new version, this method will be called and the previous selected file with other format will be removed
+        private void newContractHubChecked(object sender, RoutedEventArgs e)
+        {
+            if (path.Count == 0)
+            {
+            }
+            else
+            {
+                path.Clear();
+                filePathList.Text = "";
+                filePathList.Text = "Previously selected file has removed." + Environment.NewLine;
+            }
+            formatChosen = newContractHub;
+        }
+
     }
 }

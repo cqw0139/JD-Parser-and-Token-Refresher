@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Text;
 using System.IO;
-using System.Text.RegularExpressions;
-using System.Globalization;
-using System.Net;
-using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Collections;
 using ResponseType;
 using ApiMethod;
+using SkillSet;
 
 namespace MS_343_JD_Parser
 {
@@ -55,8 +52,8 @@ namespace MS_343_JD_Parser
             string jobId = "Job ID #";
 
 
-            string[] skillSet1 = { "SQL", "python", "java", "PowerShell", "javascript", "matlab", "julia", "ruby", "cshell", "csharp", "http", "css", "vba" };
-            string[] skillSet2 = { "c++", "c#" };
+           // string[] skillSet1 = { "SQL", "python", "java", "PowerShell", "javascript", "matlab", "julia", "ruby", "cshell", "csharp", "http", "css", "vba" };
+           // string[] skillSet2 = { "c++", "c#" };
 
             string[] january = { "jan", "JAN", "janu", "JANU", "january", "JANUARY" };
             string[] february = { "feb", "FEB", "febr", "FEBR", "february", "FEBRUARY" };
@@ -449,14 +446,14 @@ namespace MS_343_JD_Parser
                             }
                             else
                             {
-                                foreach (string requiredSkill in skillSet1)
+                                foreach (string requiredSkill in SkillSet.SkillSet.skillSet1)
                                 {
                                     if (line.ToString().IndexOf(requiredSkill, StringComparison.OrdinalIgnoreCase) >= 0)
                                     {
                                         jobOrder.skillTags.tags.Add(requiredSkill);
                                     }
                                 }
-                                foreach (string requiredSkill in skillSet2)
+                                foreach (string requiredSkill in SkillSet.SkillSet.skillSet2)
                                 {
                                     if (line.ToString().IndexOf(requiredSkill, StringComparison.OrdinalIgnoreCase) >= 0)
                                     {
@@ -470,42 +467,42 @@ namespace MS_343_JD_Parser
 
                     }
 
-                    if (string.Equals(contactName, ""))
-                    {
-                    }
-                    else
-                    {
-
-                        FindContactResponse contactResponse = apiMethod.findContactByName(contactName, contactToken);
-
-                        if (contactResponse.totalCount == 0)
-                        {
-                            // POST a new contact
-
-                            string contactJson = Newtonsoft.Json.JsonConvert.SerializeObject(new newContact(contactName)); ;
-
-                            HttpClient contactClient = new HttpClient();
-                            contactClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                            contactClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", contactToken);
-
-                            var contactBody = new StringContent(contactJson, Encoding.UTF8, "application/json");
-                            var contactResult = contactClient.PostAsync(apiMethod.ContactURL, contactBody).Result;
-
-                            contactResponse = apiMethod.findContactByName(contactName, contactToken);
-                        }
-                        else
-                        {
-                        }
-                        contactItem contactItem = new contactItem(contactResponse.items.GetValue(0).ToString());
-                        jobOrder.contactId = contactItem.contactId;
-                    }
-
                     if (line != null)
                     {
                         line = reader.ReadLine();
                     }
 
+                }
+
+                if (string.Equals(contactName, ""))
+                {
+                }
+                else
+                {
+
+                    FindContactResponse contactResponse = apiMethod.findContactByName(contactName, contactToken);
+
+                    if (contactResponse.totalCount == 0)
+                    {
+                        // POST a new contact
+
+                        string contactJson = Newtonsoft.Json.JsonConvert.SerializeObject(new newContact(contactName)); ;
+
+                        HttpClient contactClient = new HttpClient();
+                        contactClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                        contactClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", contactToken);
+
+                        var contactBody = new StringContent(contactJson, Encoding.UTF8, "application/json");
+                        var contactResult = contactClient.PostAsync(apiMethod.ContactURL, contactBody).Result;
+
+                        contactResponse = apiMethod.findContactByName(contactName, contactToken);
+                    }
+                    else
+                    {
+                    }
+                    contactItem contactItem = new contactItem(contactResponse.items.GetValue(0).ToString());
+                    jobOrder.contactId = contactItem.contactId;
                 }
 
                 string json = Newtonsoft.Json.JsonConvert.SerializeObject(jobOrder);
