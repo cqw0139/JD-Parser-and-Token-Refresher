@@ -15,7 +15,7 @@ namespace MSJD_NewParser
             //the following part is msjd parsing
 
             //field initialization
-            string title = " - See Attachment for Full Details";
+            string title = "- See Attachment for Full Details";
             string numOfOpen = "Number of openings:";
             string startDate = "Estimated start date:";
             string endDate = "Estimated end date:";
@@ -48,6 +48,7 @@ namespace MSJD_NewParser
             jobOrder.contactId = 4578452;
             jobOrder.companyId = 529769;
             jobOrder.statusId = 38753;
+            jobOrder.jobTitle = "Default Title(Parsing job title failed)";
 
             dynamic skill = new System.Dynamic.ExpandoObject();
             skill.matchAll = true;
